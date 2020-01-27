@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+   <title>Twitter Sentiment Analysis by Firas Obeid</title>
+
+   <link rel="stylesheet" href="{{ url_for('static',     filename='css/style.css') }}">
+ </head>
+ <body>
+    <h1> Senitment Results: "{{tweet}}"</h1>
+    <div>Positive tweets percentage: {{positive}}%</div>
+    <div>Negative tweets percentage: {{negative}}%</div>
+    <div>Neutral tweets percentage: {{neutral}}%</div>
+
+    <ol>
+        <h4> Positive recent tweets(Showing only {{lenp}} tweets): </h4>
+    <!-- For loop logic of jinja template -->
+    {%for i in range(0, lenp)%} 
+  
+    	<li>{{plist[i]}}</li> 
+    {%endfor%}
+    </ol>
+    <ol>
+	<h4> Negative recent tweets(Showing only {{lenn}} tweets): </h4>
+    {%for j in range(0, lenn)%} 
+  
+    	<li>{{nlist[j]}}</li>	
+
+    {%endfor%}
+    </ol>
+    <div id='button'>
+      <form action='/'>
+      <input type=submit value='Check another tweet!'>
+      </form>
+    </div>
+ </body>
+</html>

@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+   <title>Twitter Sentiment Analysis by Firas Obeid</title>
+
+   <link rel="stylesheet" href="{{ url_for('static',     filename='css/style.css') }}">
+ </head>
+ <body>
+    <header>
+
+      {% from "_formhelpers.html" import render_field %}
+      <form method=post action=/results>
+        <div class="container">
+        <strong><nav>	
+          <h1 class="logo">Twitter Feed Senitment Analysis</h1>	
+        </nav></strong>
+            <dl>
+              {{ render_field(form.keyword, cols='15', rows='1') }}
+              {{ render_field(form.integer, cols='2', rows='1') }}
+            </dl>
+            <input type=submit value='Submit for Analysis' name='submit_btn'>
+        </div>
+      </form>
+    <p>Feel free to check my linkedin page <a href="https://www.linkedin.com/in/feras-obeid/" title="My LinkedIn Page">My Profile</a> .</p>
+    <h6> **Disclaimer: This Project/Web App is for academic research and not meant for investment or trading purposes of any sort!**</h6>
+    </header>
+ </body>
+</html>

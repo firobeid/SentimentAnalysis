@@ -1,0 +1,8 @@
+body{
+ width:600px;
+ background-image: url("logo.png");
+ background-color: #cccccc;
+}
+.button{
+ padding-top: 60px;
+}
