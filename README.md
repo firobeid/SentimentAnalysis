@@ -1,3 +1,3 @@
 # SentimentAnalysis
 Senitment Analysis using several data sources
-http://firobeid.pythonanywhere.com/
+Checkout the deployed Web App: http://firobeid.pythonanywhere.com/
