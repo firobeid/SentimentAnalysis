@@ -5,5 +5,5 @@ Senitment Analysis using several data sources:
 - Scoring live feed articles pulled from Eikon App (Reuters) and comparing to any securities minute closing price.
 
 ___
-                              Checkout the deployed Web App: http://firobeid.pythonanywhere.com/
+Checkout the deployed Web App: http://firobeid.pythonanywhere.com/
 ___
