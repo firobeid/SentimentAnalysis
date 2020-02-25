@@ -1,5 +1,9 @@
 # My Sentiment Analysis Methods
 
+___
+Checkout the deployed Web App: http://firobeid.pythonanywhere.com/
+___
+
 Senitment Analysis using several data sources:
 - Sentiment polarity from scrapping tweets from Twitter that have a specfic keyword menttioned in them.
 
@@ -11,6 +15,3 @@ Senitment Analysis using several data sources:
 
 ![](EikonSentimentExtraction/EIKON_sentiment_scoring.png)
 
-___
-Checkout the deployed Web App: http://firobeid.pythonanywhere.com/
-___
