@@ -21,10 +21,10 @@ class TwitterClient(object): # Define a class which is a template, called "Twitt
 		Class constructor or initialization method. 
 		'''
 		# keys and tokens from the Twitter Dev Console 
-		consumer_key = 'GUnlUI21y2Q57gtKWo5NG0ffC' # These are used for authorizing python with the Twitter API
-		consumer_secret = '9tFt1HlB50uo59tGrKkfs3qLRnDC3q0SIe2FjDw0kOjry0qBau'
-		access_token = '1050147431046889472-IbzEPNtVyBkFJmWF6RqnNQyv32OOXO'
-		access_token_secret = 'YsCeipVK9uAG0TF2veENRYgvZvzlOnKkSoYGdLspXQSPE'
+		consumer_key = '#########' # These are used for authorizing python with the Twitter API
+		consumer_secret = '########'
+		access_token = '#######'
+		access_token_secret = '#######'
 
 		# attempt authentication 
 		try: 
